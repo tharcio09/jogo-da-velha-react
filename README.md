@@ -1,16 +1,53 @@
-# React + Vite
+#  Tic-Tac-Toe (Jogo da Velha) com React e Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto clássico de Jogo da Velha construído com React, utilizando o Vite como ambiente de desenvolvimento rápido. O objetivo principal deste projeto foi praticar e demonstrar conceitos fundamentais do React.
 
-Currently, two official plugins are available:
+## 📋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O foco foi a aplicação de conceitos essenciais como:
+* **Componentização:** Divisão da interface em componentes reutilizáveis (`Board` e `Square`).
+* **Gerenciamento de Estado:** Uso do hook `useState` para controlar o estado do tabuleiro, os turnos e o vencedor.
+* **Props:** Comunicação de dados e funções entre componentes pais e filhos.
+* **Event Handling:** Captura de cliques do usuário para atualizar o estado do jogo.
+* **Animações:** Adição de microinterações com `Framer Motion` para uma experiência de usuário mais agradável.
 
-## React Compiler
+## ✨ Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+O projeto foi construído utilizando as seguintes tecnologias:
 
-## Expanding the ESLint configuration
+[![My Skills](https://skillicons.dev/icons?i=react,vite,tailwind,framermotion)](https://skillicons.dev)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Screenshot
+
+![Screenshot do Jogo da Velha](./public/images/screenshot.PNG)
+
+
+## 🚀 Rodando o Projeto Localmente
+
+Para rodar este projeto em sua máquina, siga os passos abaixo:
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/tharcio09/jogo-da-velha-react.git](https://github.com/tharcio09/jogo-da-velha-react.git)
+    ```
+
+2.  **Entre no diretório do projeto:**
+    ```bash
+    cd jogo-da-velha-react
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+O projeto estará disponível em `http://localhost:5173` (ou a porta indicada no seu terminal).
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT.
